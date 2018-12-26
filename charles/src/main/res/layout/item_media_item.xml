@@ -59,6 +59,17 @@
 
     </FrameLayout>
 
+    <io.github.tonnyl.charles.ui.component.CheckView
+        android:id="@+id/mediaCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:clickable="false"
+        app:color_background="?attr/media.checkView.backgroundColor"
+        app:color_border="?attr/media.checkView.borderColor"
+        app:size="24dp" />
+  
     <Space
         android:id="@+id/space1"
         android:layout_width="@dimen/item_padding"
@@ -70,17 +81,6 @@
         android:layout_width="@dimen/item_padding"
         android:layout_height="match_parent"
         android:layout_toStartOf="@id/mediaCheckBox" />
-
-    <io.github.tonnyl.charles.ui.component.CheckView
-        android:id="@+id/mediaCheckBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
-        android:clickable="false"
-        app:color_background="?attr/media.checkView.backgroundColor"
-        app:color_border="?attr/media.checkView.borderColor"
-        app:size="24dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
